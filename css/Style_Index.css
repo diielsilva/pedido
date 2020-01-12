@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: inline-block;
+}
+header h1{
+    margin-top: 1%;
+    text-align: center;
+}
+.secao {
+    width: 45%;
+    padding: 3%;
+    margin: 5% auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+.secao h1{
+    margin-bottom: 2%;
+}
+.secao input{
+    margin: 5px auto;
+    display: block;
+    padding: 8px;
+    outline: none;
+}
+
+.secao input[type=submit]{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

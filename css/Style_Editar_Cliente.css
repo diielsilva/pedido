@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+header{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+header h1{
+    margin-top: 1%;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+
+.secao-edicao {
+    width: 40%;
+    background-color: white;
+    border-radius: 3px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.secao-edicao input{
+    padding: 8px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secao-edicao input[type=submit]{
+    display: block;
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 10px auto;
+}
+
+.secao-edicao p{
+    margin-top: 10px;
+    
+}
+
+.secao-edicao button{
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 1%;
+    padding: 8px;
+}
